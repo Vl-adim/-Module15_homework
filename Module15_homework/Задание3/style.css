@@ -1,0 +1,72 @@
+.main { 
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  
+}
+
+
+.message { 
+  display: flex;
+  gap: 10px;
+  width: 50%;
+}
+
+.input  {
+  border: 2px solid blue;
+  width: 100%;
+}
+
+
+.message__btn  {
+  background-color: blue;
+  padding: 5px;
+  color: white;
+  border: 1px solid white;
+ 
+}
+
+.message__btn:hover { 
+  background-color: rgb(163, 193, 248);
+  color: black;
+  cursor: pointer;
+}
+
+.geolocation_btn  {
+  background-color: blue;
+  padding: 5px;
+  color: white;
+  border: 1px solid white;
+ 
+}
+
+.geolocation_btn:hover { 
+  background-color: rgb(163, 193, 248);
+  color: black;
+  cursor: pointer;
+}
+
+.windows { 
+  
+  flex-direction: column;
+  border: 1px solid blue;
+  width: 50%;
+  display: none;
+}
+
+.messageTo { 
+  align-self: flex-end;
+}
+
+.messageOut { 
+  align-self: flex-start;
+}
+
+.messageTo, .messageOut {
+
+  padding: 15px;
+  margin: 10px;
+  border: 2px solid blue;
+  border-radius: 10px;
+
+}
